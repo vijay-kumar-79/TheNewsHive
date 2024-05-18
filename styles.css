@@ -1,0 +1,322 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: default;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    font-size: 4rem;
+    margin: 0 0;
+    padding: 10px;
+    font-weight: lighter;
+    background-image:repeating-linear-gradient(155deg,#333333,#333333 10px,#212020 40px);
+    color: azure;
+}
+
+.navbar{
+    padding-left: 17px;
+    background-color: whitesmoke;
+}
+
+.navbar p{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.6rem;
+    font-weight:light;
+}
+
+.bi-search{
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.breaking p{
+    display: inline-block;
+    padding: 10px 0;
+    padding-right: 140px;
+    font-size: 1.1rem;
+    background-color: rgb(200, 200, 200);
+}
+
+.breaking{
+    background-color: rgb(200, 200, 200);
+    /* margin-bottom: 60px; */
+    padding: 0 20px;
+}
+
+.break{
+    font-weight: bold;
+    margin-left: 0;
+    
+}
+
+.local{
+    font-weight: lighter;
+    color: #555555;
+}
+
+.right{
+    float: right;
+}
+
+.right p{
+    padding-right: 20px;
+    font-size: 16.5px;
+    color: #555555;
+}
+.bi-clound-sun{
+    background-color: rgb(200, 200, 200);
+}
+
+.content{
+    height: 50vh;
+    width: 100%;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+}
+
+.news-cards{
+    height: 58vh;
+    width: 70%;
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 45% 25% 20%;
+    gap: 20px;
+    
+}
+
+.sidebar{
+    width: 27%;
+    height: 58vh;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.sidebar h2{
+    display: inline-block;
+    font-weight: lighter;
+    width: 49%;
+    font-size: 35px;
+    padding: 7px 0;
+    margin-bottom: 5px;
+    text-align: center;
+    /* background-color: beige; */
+}
+
+#card1{
+    grid-row: span 2;
+    background-image: url(images/newspaper.jpg);
+    background-size:cover ;
+}
+
+#card2{
+    grid-row: span 2;
+    background-image: url(images/model.jpg);
+    background-size: cover;
+}
+
+#card3{
+    background-image: url(images/coffee.jpeg);
+    background-size: cover;
+}
+
+#card4{
+    background-image: url(images/laptop.jpg);
+    background-size: cover;
+}
+
+.images{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+.images2{
+    height: 90%;
+    width: 25%;
+    margin: 1.6%;
+}
+
+.slides{
+    background-color: white;
+    height: 25%;
+    margin-bottom: 15px;
+}
+
+.black{
+    background-color: black;
+    color: white;
+}
+
+svg{
+    display: inline-block;
+    background-color: inherit;
+}
+
+.images{
+    z-index: -1;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+.tags p{
+    display: inline-block;
+    font-size: small;
+    padding: 3px 8px;
+    margin: 0 10px;
+    background-color: rgb(34, 30, 30);
+    color: white;
+    border-radius: 40%;
+}
+
+.tags{
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.head1{
+    font-size: 38px;
+    color: white;
+    margin-left: 40px;
+}
+
+.symbol{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin-left: 40px;
+    border-radius: 50%;
+}
+
+.author p{
+    color: white;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+#card1 .author{
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+
+#card2 .date{
+    color: white;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+
+#card2 .head1{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+#card3 .head1{
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+#card3 .tags{
+    margin-left: 15px;
+}
+
+#card3 .symbol{
+    margin-left: 15px;
+}
+
+#card3 .author{
+    margin-top: 10px;
+}
+
+#card3 .date{
+    
+    color: white;
+    margin: 10px 0;
+    margin-left: 15px;
+}
+
+#card4 .head1{
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+#card4 .tags{
+    margin-left: 15px;
+}
+
+#card4 .symbol{
+    margin-left: 15px;
+}
+
+#card4 .author{
+    margin-top: 10px;
+}
+
+#card4 .date{
+    
+    color: white;
+    margin: 10px 0;
+    margin-left: 15px;
+}
+
+.slides{
+    display: flex;
+}
+
+.slides p{
+    font-size: 22px;
+    padding-top: 10px;
+    padding-left: 16px;
+}
+
+.slides .date{
+    font-size: 17px;
+    padding-top: 10px;
+    color: rgb(85, 84, 84);
+}
+
+.navbar p:hover{
+    background-color: black;
+    color: white;
+}
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {
+    background-color: black;
+    color: white;
+}
